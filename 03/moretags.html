@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>
+        Home work
+    </h1>
+    <a href="next.html">Visit next page</a>
+    <ul>
+        <li>First</li>
+        <li>second</li>
+    </ul>
+    <ol start="5">
+        <li>First</li>
+        <li>second</li>
+        <li>First</li>
+        <li>second</li>
+        <li>First</li>
+        <li>second</li>
+    </ol>
+    <ol reversed>
+        <li>First1</li>
+        <li>second2</li>
+        <li>First3</li>
+        <li>second4</li>
+        <li>First5</li>
+        <li>second6</li> 
+    </ol>
+    <!-- type="I" -->
+    <ol type="A">
+        <li>
+            <h3>
+                Title
+            </h3>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam, corrupti!
+            </p>
+        </li>
+        <li>second</li>
+        <li>
+            <ul>
+                <li>second</li>
+                <li>First</li>
+                <li>second</li>                
+            </ul>
+        </li>
+
+    </ol>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Sale</a></li>
+        </ul>
+    </nav>
+
+    <!-- table -->
+
+    <!-- [
+    {
+      "userId": 1,
+      "id": 1,
+      "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+      "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+    },
+    {
+      "userId": 1,
+      "id": 2,
+      "name": "Tom",
+      "skills": ['html', 'css', 'js']
+    },
+    {
+      "userId": 1,
+      "id": 3,
+      "title": "ea molestias quasi exercitationem repellat qui ipsa sit aut",
+      "body": "et iusto sed quo iure\nvoluptatem occaecati omnis eligendi aut ad\nvoluptatem doloribus vel accusantium quis pariatur\nmolestiae porro eius odio et labore et velit aut"
+    }, -->
+
+    <table border="4"  style="width: 100%;">
+        <thead>
+            <tr>
+                <th>
+                    Name
+                </th>
+                <th>
+                    Age
+                </th>
+                <th>
+                    Skills
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <!-- <p>
+                    ERRoR помилка
+                </p> -->
+                <td colspan="2">
+                    <strong>
+                       Tom 
+                    </strong>
+                </td>
+
+                <td rowspan="3">
+                    html, css, git
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    John
+                </td>
+                <td>
+                    25
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Nik
+                </td>
+                <td>
+                    24
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Nik
+                </td>
+                <td>
+                    24
+                </td>
+                <td>
+                    js
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <h3>
+        Forms tag
+    </h3>
+    <form action="">
+        <div>
+            <label for="username">
+                Username label
+            </label>
+            <input id="username" type="text" placeholder="min user name 2 laters">            
+        </div>
+        <div>
+            <label for="userpassword">
+                Userpassword label
+            </label>
+            <input id="userpassword" type="password"  placeholder="min password 6 symbols" disabled>            
+        </div>
+        <div>
+            <select id="selectskill">
+                <option value="01">I konw Html css</option>
+                <option disabled value="02">I konw Html css js</option>
+                <option value="03">I konw Html css js python</option>
+            </select>
+        </div>
+        <h4>
+            Radiobutton
+        </h4>
+        <div>
+            <h5>
+                Delivery
+            </h5>
+            <ul>
+                <li>
+                    <label for="postbox">PostBox</label>
+                    <input name="delivery" id="postbox" type="radio">
+                </li>
+                <li>
+                    <label for="ukrpost">UkrPost</label>
+                    <input disabled name="delivery" id="ukrpost" type="radio">
+                </li>
+                <li>
+                    <label for="man">Delivery Man</label>
+                    <input name="delivery" id="man" type="radio">
+                </li>
+            </ul>
+            <h5>
+                Trasport type
+            </h5>
+            <ul>
+                <li>
+                    <label for="car">car</label>
+                    <input name="transport1" id="car" type="checkbox">
+                </li>
+                <li>
+                    <label for="bike">bike</label>
+                    <input name="transport2" id="bike" type="checkbox">
+                </li>
+                <li>
+                    <label for="bus">bus</label>
+                    <input name="transport3" id="bus" type="checkbox">
+                </li>
+            </ul>
+        </div>
+        <textarea cols="20" rows="10"  placeholder="min user name 2 laters"></textarea>
+        <input type="submit" value="Купити" disabled>
+
+    </form>
+    <button>
+        Оформити оплату частинами
+    </button>
+    <a href="#">Buy</a>
+</body>
+</html>
