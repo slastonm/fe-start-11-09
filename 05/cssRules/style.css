@@ -1,0 +1,80 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    padding: 50px;
+    background-color: orange;
+    /* ctrl+shift+m */
+    /* width: 1500px; */
+    /* max-width: 1500px; */
+    /* min-width: 1500px; */
+    margin: 0 auto;
+}
+.box{
+    border: 4px solid black;
+    background-color: red;
+    margin-top: 50px;
+    /* padding: 50px; */
+    /* width: 100%; */
+    width: 363px;
+    /* box-sizing: content-box; */
+    /* box-sizing: border-box; */
+    /* margin-left: 800px; */
+    margin-left: auto;
+    margin-right: auto;
+    height: 300px;
+    /* min-height: 250px; */
+    /* max-height: 250px; */
+    text-align: center;
+
+}
+.box img{
+    max-width: 150px;
+    /* height: 250px; */
+    height: auto;
+}
+.box a{
+    /* display: inline; */
+    /* display: inline-block; */
+    /* display: block; */
+}
+.product-row{
+    border: 3px solid blue;
+    /* text-align: right; */
+    text-align: center;
+    font-size: 0;
+}
+.product-card{
+    width: 250px;
+    border: 2px solid gray;
+    background-color: lightblue;
+    text-align: center;
+    padding: 25px;
+    display: inline-block;
+    /* box-sizing: content-box; */
+    /* margin: 0 auto; */
+    /* margin-right: 50px; */
+    /* margin-left: -7px;  Спосіб 1*/
+    margin-left: 250px;
+    /* border-radius: 20px; */
+    border-top-left-radius: 20px;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 120px;
+}
+.product-card:first-child{
+    margin-left: 0;
+}
+.product-card h3{
+    font-size: 20px;
+}
+.product-card p{
+    font-size: 18px;
+    line-height: 1.2;
+    /* letter-spacing: 0%; */
+    letter-spacing: 10px;
+}
