@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    /* min-height: 100vh; */
+    background-image: url("../img/netflix.png");
+    background-color: #171a1f;
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+p{
+    width: 100px;
+    font-size: 40px;
+    margin: 0 auto;
+
+}
+.simple-bg{
+    
+    color: white;
+    padding: 50px;
+    width: 1520px;
+    height: 920px;
+    background-color: rgb(5, 71, 143);
+    background-image: url("../img/smile.png");
+
+    /* background-image: url("../img/avatar.png"),url("../img/1.webp"); */
+    background-repeat: no-repeat;
+    /* background-repeat: repeat-x; */
+    /* background-repeat: repeat-y; */
+    /* background-position: top left; */
+    /* background-position: top right; */
+    /* background-position: bottom left; */
+    /* background-position: bottom center; */
+    /* background-position: center; */
+    /* background-position: top 50px left 150px; */
+    /* background-size: 100px 100px; */
+    /* background-size: contain; */
+    background-size: cover;
+}

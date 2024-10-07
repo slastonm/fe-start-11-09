@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+main{
+    padding-top: 200px;
+    padding-bottom: 600px;
+    min-height: 100vh;
+    background-image: url("../img/bg.jpeg");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+header,section{
+    text-align: center;
+    padding: 40px;
+    background-color: white;
+    margin-bottom: 250px;
+}
+section:last-child{
+    margin-bottom: 0;
+}
+
+/* Sprite */
+button{
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+
+}
+.icon{
+    background-image: url("../img/sprite-icon-29.jpg"); 
+}
+.fb{
+    background-position: top -13px left -13px;
+}
+.fb:hover{
+    background-position: top -179px left -13px;
+}
+.dribble{
+    background-position: top -13px left -98px;
+}
+.dribble:hover{
+    background-position: top -179px left -98px;
+}
+h3{
+    font-size: 30px;
+    color: orange;
+}
+h3 i{
+    color: black;
+}
+p{
+    font-size: 20px;
+}
