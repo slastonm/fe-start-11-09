@@ -1,0 +1,19 @@
+:root{
+    --BodyBackground:rgb(68, 9, 9);
+    --bodyFontFamily:Arial, Helvetica, sans-serif;
+    /* --secondary-font-family: */
+    --title-bg:rgb(230, 96, 6);
+    --title-font-size:25px;
+    --container-size:80%;
+    /* --container size:80%; */
+    --main-color:white;
+    --secondary-color:gray;
+}
+body{
+    font-family:var(--bodyFontFamily);
+    background-color: var(--BodyBackground);
+}
+h1{
+    background-color: var(--title-bg);
+    font-size: var(--title-font-size);
+}
