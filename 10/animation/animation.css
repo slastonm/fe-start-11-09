@@ -1,0 +1,90 @@
+@keyframes simple {
+  from{
+    background-color: blue;
+    border-radius: 0;
+    left: 0;
+  }
+  to{
+    background-color: rgb(7, 210, 34);
+    border-radius: 50%;
+    left: 600px;
+  }
+}
+
+@keyframes pro {
+  0%{
+    background-color: blue;
+    border-radius: 0;
+    left: 0;
+    top:0
+  }
+  25%{
+    background-color: rgb(7, 210, 34);
+    border-radius: 50%;
+    left: 600px;
+    top: 0;
+  }
+  50%{
+    background-color: blue;
+    border-radius: 0;
+    left: 600px;
+    top: 600px;
+  }
+  75%{
+    background-color: rgb(7, 210, 34);
+    border-radius: 50%;
+    left: 0;
+    top: 600px;
+  }
+  100%{
+    background-color: blue;
+    border-radius: 0;
+    left: 0;
+    top: 0;
+  }
+  
+}
+.example{
+  width: 150px;
+  height: 150px;
+  background-color: blue;
+  position: relative;
+  /* animation-name: simple; */
+  animation-name: pro;
+
+  animation-duration: 12s;
+  /* animation-iteration-count: 3; */
+  animation-iteration-count: infinite;
+}
+.example.second{
+  animation-delay: 12s;
+  animation-direction: reverse;
+}
+
+
+@keyframes move {
+  from {left: 0px;}
+  to {left: 1800px;}
+}
+
+
+.animatio>div {
+    width: 90px;
+    height: 90px;
+    padding: 5px;
+    color: #fff;
+    background-color: rgb(54, 74, 11);
+    font-weight: bold;
+    position: relative;
+    animation-name: move;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+  }
+  .linear {animation-timing-function: linear}
+  .ease {animation-timing-function: ease;}
+  .ease-in {animation-timing-function: ease-in;}
+  .ease-out {animation-timing-function: ease-out;}
+  .ease-in-out {animation-timing-function: ease-in-out;}
+  .custom{
+    animation-timing-function: cubic-bezier(1,.06,.9,.71);
+  }
